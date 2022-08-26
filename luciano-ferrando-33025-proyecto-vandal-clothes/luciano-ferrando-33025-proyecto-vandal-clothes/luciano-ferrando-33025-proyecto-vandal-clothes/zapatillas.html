@@ -6,19 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zapatillas</title>
 </head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 <link rel="stylesheet" href="./Css/Style.css">
 <body>
-    <nav>
-
-
-    </nav>
-    <main>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">Vandal Clothes</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./hoodies.html">Hoodies</a></li>
+                        <li><a class="dropdown-item" href="./remeras.html">Remeras</a></li>
+                        <li><a class="dropdown-item" href="./pantalones.html">Pantalones</a></li>
+                        <li><a class="dropdown-item" href="./camperas.html">Camperas</a></li>
+                        <li><a class="dropdown-item" href="./zapatillas.html">Zapatillas</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./como-comprar.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Como Comprar
+                    </a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./ubicacion.html">Ubicacion</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="./devoluciones.html">Devoluciones</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- <main>
         <section class="titulosprincipales">
             <h1><a href="./index.html">Vandal Clothes</a></h1>
-        </section> 
+        </section>  -->
 
         <!-- Perfil -->
-        <section>
+        <!-- <section>
             <ul class="menu">
                 <li><a href="./log-in.html">Log in</a></tr>
                 <li>/</li>
@@ -26,41 +65,82 @@
                 <li>/</li>
                 <li>Buscar</li>
             </ul>
-        </section>
+        </section> -->
         
         <!-- Secciones -->
-        <section class="secciones">
+        <!-- <section class="secciones">
             <h2> <a href="./index.html">Home</a></h2>
             <h2> <a href="./productos.html">Productos</a></h2>
             <h2> <a href="./como-comprar.html">Como Comprar</a></h2>
             <h2> <a href="./devoluciones.html">Devoluciones</a></h2>
             <h2> <a href="./ubicacion.html">Ubicacion</a></h2>
-        </section>
+        </section> -->
         
         <!-- Imagenes Zapatillas -->
-        <section class="maincartita">
+        <!-- <section class="maincartita">
             <h2>Zapatillas</h2>
             <div class="cartita">
-                <img class="cartaimagen" src="../luciano-ferrando-33025-proyecto-vandal-clothes/imagenes-pagina-web/zapatillas/NI_315115-152-1.jpg" alt="Nike Air Force 1 Low Blancas">
+                <img class="cartaimagen" src="../luciano-ferrando-33025-proyecto-vandal-clothes/imagenes/zapatillas/NI_315115-152-1.jpg" alt="Nike Air Force 1 Low Blancas">
                 <h3 class="cartatitulo">Nike Air Force 1 Low Blancas</h3>
                 <h4 class="cartatitulo">$------</h4>
             </div>
             <div class="cartita">
-                <img class="cartaimagen" src="../luciano-ferrando-33025-proyecto-vandal-clothes/imagenes-pagina-web/zapatillas/NI_CJ9178-200-1.jpg" alt="Nike Air Force 1 High 07">
+                <img class="cartaimagen" src="../luciano-ferrando-33025-proyecto-vandal-clothes/imagenes/zapatillas/NI_CJ9178-200-1.jpg" alt="Nike Air Force 1 High 07">
                 <h3 class="cartatitulo">Nike Air Force 1 High 07</h3>
                 <h4 class="cartatitulo">$------</h4>
             </div>
             <div class="cartita">
-                <img class="cartaimagen" src="../luciano-ferrando-33025-proyecto-vandal-clothes/imagenes-pagina-web/zapatillas/NI_DC4013-001-1.jpg" alt="Nike Air Max 97 Se">
+                <img class="cartaimagen" src="../luciano-ferrando-33025-proyecto-vandal-clothes/imagenes/zapatillas/NI_DC4013-001-1.jpg" alt="Nike Air Max 97 Se">
                 <h3 class="cartatitulo">Nike Air Max 97 Se</h3>
                 <h4 class="cartatitulo">$------</h4>
             </div>
             <div class="cartita">
-                <img class="cartaimagen" src="../luciano-ferrando-33025-proyecto-vandal-clothes/imagenes-pagina-web/zapatillas/NI_DH8143-200-1.jpg" alt="Nike Air Huarache LE">
+                <img class="cartaimagen" src="../luciano-ferrando-33025-proyecto-vandal-clothes/imagenes/zapatillas/NI_DH8143-200-1.jpg" alt="Nike Air Huarache LE">
                 <h3 class="cartatitulo">Nike Air Huarache LE</h3>
                 <h4 class="cartatitulo">$------</h4>
             </div>
         </section>
-    </main> 
+    </main>  -->
+    <section class="conteiner">
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../luciano-ferrando-33025-proyecto-vandal-clothes/imagenes/zapatillas/NI_315115-152-1.jpg" alt="Nike Air Force 1 Low Blancas" class="card-img-top" alt="Nike Air Force 1 Low Blancas">
+                    <div class="card-body">
+                        <h5 class="card-title">Nike Air Force 1 Low Blancas</h5>
+                        <p class="card-text">$------</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../luciano-ferrando-33025-proyecto-vandal-clothes/imagenes/zapatillas/NI_CJ9178-200-1.jpg" class="card-img-top" alt="Nike Air Force 1 High 07">
+                    <div class="card-body">
+                        <h5 class="card-title">Nike Air Force 1 High 07</h5>
+                        <p class="card-text">$------</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../luciano-ferrando-33025-proyecto-vandal-clothes/imagenes/zapatillas/NI_DC4013-001-1.jpg" class="card-img-top" alt="Nike Air Max 97 Se">
+                    <div class="card-body">
+                        <h5 class="card-title">Nike Air Max 97 Se</h5>
+                        <p class="card-text">$------</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="../luciano-ferrando-33025-proyecto-vandal-clothes/imagenes/zapatillas/NI_DH8143-200-1.jpg" class="card-img-top" alt="Nike Air Huarache LE">
+                    <div class="card-body">
+                        <h5 class="card-title">Nike Air Huarache LE</h5>
+                        <p class="card-text">$------</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
