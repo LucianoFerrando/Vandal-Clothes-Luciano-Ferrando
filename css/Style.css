@@ -1,0 +1,30 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.titulosprincipales{
+    background-color: black;
+    color: bisque;
+    text-align: left;
+    font-family: cursive;
+    font-size: 30px;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+.titulosprincipales a{
+    color: bisque;
+    text-decoration: none;
+} */
+
+
+/* Secciones */
+/* .secciones{
+    background-color: black;
+    text-align: center;
+    position: sticky;
+    top: 102px;
+}
+.
