@@ -1,0 +1,1 @@
+const tarjetas = document.querySelector(".card")
